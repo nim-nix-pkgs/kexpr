@@ -11,6 +11,7 @@
   inputs.src-kexpr-master.ref   = "refs/heads/master";
   inputs.src-kexpr-master.owner = "brentp";
   inputs.src-kexpr-master.repo  = "kexpr-nim";
+  inputs.src-kexpr-master.dir   = "";
   inputs.src-kexpr-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
